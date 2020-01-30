@@ -180,7 +180,7 @@ extern "C" {
 ```rust
 // ...
 #[wasm_bindgen]
-extern {
+extern "C" {
     fn alert(msg: String);
 }
 
